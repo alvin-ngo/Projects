@@ -18,7 +18,7 @@ mydb = mysql.connector.connect(
 
 def getprice():
 
-    liveprice = si.get_live_price("ES=F")
+    liveprice = si.get_live_price("JPY=X")
 
     return liveprice
        
