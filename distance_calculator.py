@@ -14,6 +14,7 @@ def getcoord():
     long2 = math.radians(input2.longitude)
 
     dis =  3958.8 * math.acos((math.sin(lat1) * math.sin(lat2)) + math.cos(lat1) * math.cos(lat2) * math.cos(long2 - long1))
+    #radius of earth = 3958.8 miles 
 
     print(f"{round(dis,1)} Miles")
 
